@@ -1,0 +1,18 @@
+sources:
+  - name: raw_ghana
+    database: onpremtocloud
+    schema: analytics_dataset
+    tables:
+      - name: ghana_customers
+
+  - name: raw_kenya
+    database: onpremtocloud
+    schema: analytics_dataset
+    tables:
+      - name: kenya_customers
+
+  - name: raw_nigeria
+    database: onpremtocloud
+    schema: analytics_dataset
+    tables:
+      - name: nigeria_customers

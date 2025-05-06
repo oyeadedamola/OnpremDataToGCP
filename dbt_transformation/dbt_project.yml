@@ -1,0 +1,11 @@
+name: 'dbt_transformation'
+version: '1.0'
+profile: 'my_bigquery_profile'  # must match profile name in profiles.yml
+
+model-paths: ["models"]
+
+models:
+  dbt_transformation:
+    +materialized: table # or 'view' if you prefer
+    staging:
+      +materialized: view
