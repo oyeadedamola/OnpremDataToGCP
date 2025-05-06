@@ -104,5 +104,4 @@ Once data is in BigQuery and transformed, connect Looker to your BigQuery datase
 ## 📌 Notes
 - Ensure proper IAM permissions are set for GCP services.  
 - Secrets should be managed securely (e.g., via Airflow Variables or Secret Manager).  
-- Use Docker Compose for consistent local environment setup.
 
